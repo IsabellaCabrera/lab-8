@@ -1,0 +1,38 @@
+*{
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: #C9FFE2;
+    padding: 1.25rem ;
+    text-align: center;
+}
+
+.posts {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.post{
+    max-width: 300px;
+    background-color: beige;
+    padding: 1.25rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.post img {
+    max-width: 50%;
+    border-radius: 8px;
+    background-color: beige;
+
+}
+
+.post h2 {
+    margin-top: 10px;
+    background-color: beige;
+}
+
+.post p {
+    color: #666;
+    background-color: beige;
+}
